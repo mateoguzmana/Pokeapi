@@ -1,0 +1,34 @@
+    <div class="container-fluid">
+      <!-- Example row of columns -->
+      <div class="container">
+        <div class="col-md-6">
+            <span class="img-detail">
+                <img class="img-responsive center-block" [attr.src]="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/'+id+'.png'">
+                <p class="bulbasaur">{{Name}}</p>
+            </span>
+        </div>
+        <div class="col-md-6">
+            <hr/>
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <p><b>Altura:</b> {{Height}} m</p>
+                    <p><b>Peso:</b> {{Weight}} kg</p>
+                </div>
+                <div class="col-md-6">
+                    <p><b>Habilidad:</b> {{Ability}}</p>
+                </div>
+            </div>          
+        </div>
+
+       
+         
+      </div>
+
+
+
+    </div> 
+        
+        <footer class="text-center">
+        <p>&copy; The Pokemon Company</p>
+      </footer>
